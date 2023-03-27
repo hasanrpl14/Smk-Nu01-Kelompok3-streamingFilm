@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('img/bg.jpg');
+    /* area background: ; */
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex; 
+    align-items: center;
+    /* mengatur buat item seperti logo home dll menjadi rata pinggir */
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.burger {
+    cursor: pointer;
+	height: 14px;
+    display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+	margin-left: 1rem;
+}
+.burger span {
+    display: block;
+    width: 18px;
+    height: 2px;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    /* mengatur jarak dan ukuran icon sebelah kanan */
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block; /* untuk mengatur menu home menjadi rata pinggir*/
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none; /* untuk menghilangkan garis bawah pada teks a seperti home menu*/
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 13px;
+}
+nav ul li a:hover{
+    text-decoration: none; /* untuk menghilangkan garis bawah pada teks a seperti home menu*/
+    text-transform: capitalize;
+    color: crimson;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+}
+.row{
+     display: flex;
+     height: 88%;
+     align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    /* untuk mengatur rpl movie dan teks p menjadi setengah yang aslinya satu baris menjadi 2 baris */
+}
+h1{
+    color: #fff;
+    font-size: 80px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    width: 190px;
+    font-size: 16px;
+    padding: 12px 0;
+    background: crimson;
+    transition: all .3s ease-in-out;
+}
+button a{
+    color: #000;
+    text-decoration: none;
+}
+button a:hover{
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+h5{
+    color: #fff;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(img/naru1.webp);
+}
+.card2{
+    background-image: url(img/naru3.jpg);
+}
+.card3{
+    background-image: url(img/naru4.webp);
+}
+.card4{
+    background-image: url(img/naru2.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
