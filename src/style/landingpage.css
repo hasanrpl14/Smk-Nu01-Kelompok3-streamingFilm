@@ -1,12 +1,11 @@
 .myBG {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('../assets/bg/bg.jpg');
+    background: url('../assets/bg/bioskop.webp');
     /* area background: ; */
-    background-position: center;
     background-size: cover
 }
 .intro {
-    height: 30%;
+    height: 300px;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -15,6 +14,38 @@
     font-size: 3rem;
     font-weight: 800;
     line-height: 1;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px rgb(109, 108, 108);
     letter-spacing: 4px;
+}
+.trending {
+    height: auto;
+    background: url('../assets/bg/slide2.jpg');
+    /* area background: ; */
+    background-size: cover;
+}
+.superhero {
+    height: auto;
+    background: url('../assets/bg/bg spider.jpg');
+    /* area background: ; */
+    background-size: cover;
+}
+.anime {
+    height: auto;
+    background: url('../assets/bg/slide2.jpg');
+    /* area background: ; */
+    background-size: cover;
+}
+.bar {
+    height: 100px;
+}
+.movieWrapper {
+ 
+}
+.movieImage {
+    height: auto;
+    margin: 5px;
+    padding: 4px;
+}
+.images {
+    height: 500px;
 }
