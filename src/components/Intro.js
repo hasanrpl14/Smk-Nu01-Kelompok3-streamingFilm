@@ -8,9 +8,9 @@ const Intro = () => {
             <Col>
             <div className="title">REKAYASA FILMKU</div>
             <div className="title">RPL JURUSANKU</div>
-            <div className="introButton mt-4 text-center">
-                <Button variant="dark">Lihat Semua List</Button>
-            </div>
+            {/* <div className="introButton mt-4 text-center">
+                <Button href="#anime" variant="dark">LOGIN</Button>
+            </div> */}
             </Col>
           </Row>
         </Container>

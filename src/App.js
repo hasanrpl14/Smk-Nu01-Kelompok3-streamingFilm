@@ -5,6 +5,7 @@ import Trending from'./components/Trending';
 import Superhero from'./components/Superhero';
 import Anime from'./components/Anime';
 import Foter from'./components/Foter';
+// import Login from'./components/Login';
 
 import "./style/landingpage.css";
 
@@ -24,14 +25,16 @@ function App() {
       <div className="superhero">
         <Superhero/>
       </div>
-      {/* <div className="anime">
+      <div className="anime">
         <Anime/>
-      </div> */}
-      {/* <div className="foter">
-        <Anime/>
-      </div> */}
+      <br/><br/>
+      </div>
+      <div className="foter">
+        <Foter/>
+      </div>
    </div>
   );
 }
 
 export default App
+
