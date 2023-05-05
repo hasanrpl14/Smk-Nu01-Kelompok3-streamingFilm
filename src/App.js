@@ -11,7 +11,7 @@ import "./style/landingpage.css";
 
 function App() {
   return (
-   <div>
+   <div className='bg-dark'>
       {/* { awal intro} */}
       <div className="myBG">
         <Navigationbar/>

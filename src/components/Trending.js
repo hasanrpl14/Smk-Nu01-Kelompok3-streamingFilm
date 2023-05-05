@@ -7,7 +7,7 @@ import naruVideo from "../assets/video/naruto.mp4"
 
 const Trending = () => {
     return (
-        <div>
+        <div className="bg-dark">
             <Container>
                 <br />
                 <h1 className="text-white" id="trending">Trending Movies</h1>

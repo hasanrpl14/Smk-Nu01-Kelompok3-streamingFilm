@@ -22,7 +22,7 @@ const Navigationbar = () => {
                 {/* </Container> */}
                 <div class="input-group rounded w-25 p-3">
                     <input  type="search" class="form-control rounded" className="b text-white border border-white"placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                    <span class="input-group-text border-0" id="search-addon">
+                    <span class="input-group-text border-0" id="search-addo">
                         <i class="fas fa-search"></i>
                     </span>
                 </div>

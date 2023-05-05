@@ -10,7 +10,7 @@ import womanImage from "../assets/superhero/woman.webp"
 
 const Superhero = () => {
     return (
-        <div>
+        <div className="bg-dark">
             <Container>
                 <br />
                 <h1 className="text-white" id="superhero">Superhero Movies</h1>

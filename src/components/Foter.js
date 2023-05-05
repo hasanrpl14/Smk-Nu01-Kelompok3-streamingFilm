@@ -10,7 +10,7 @@ import {
 
 export default function App() {
   return (
-    <MDBFooter className='bg-dark text-center text-white'>
+    <MDBFooter className='bg-black text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
@@ -38,7 +38,7 @@ export default function App() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='bg-dark text-center p-3'>
         © 2023 Copyright:
         <a className='text-white' href='#'>
         K3FILMS.com

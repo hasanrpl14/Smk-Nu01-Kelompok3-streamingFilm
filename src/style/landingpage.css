@@ -2,13 +2,17 @@
     height: 100vh;
     background: url('../assets/bg/bioskop.webp');
     /* area background: ; */
-    background-size: cover
+    background-size: cover 
 }
 .intro {
     height: 300px;
     display: flex;
     justify-content: end;
     align-items: end;
+}
+.carousel {
+    height: 90vh;
+    background-size: cover
 }
 .title {
     font-size: 3rem;
@@ -17,25 +21,25 @@
     text-shadow: 2px 2px rgb(109, 108, 108);
     letter-spacing: 4px;
 }
-.trending {
+ /* .trending {
     height: auto;
     background: url('../assets/bg/abstrak.jpg');
-    /* area background: ; */
+    area background: ;
     background-size: cover;
 }
 .superhero {
     height: auto;
     background: url('../assets/bg/abstrak.jpg');
-    /* area background: ; */
+    area background: ;
     background-size: cover;
 }
 .anime {
     height: auto;
     background: url('../assets/bg/abstrak.jpg');
-    /* area background: ; */
+    /* area background: ;
     background-size: cover;
-}
-.bar {
+} */
+.bar { 
     height: 100px;
 }
 .movieWrapper {
