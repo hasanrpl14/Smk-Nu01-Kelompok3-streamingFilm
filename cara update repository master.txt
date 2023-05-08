@@ -1,0 +1,8 @@
+cara update repository branch master github 
+1. klik git bash masuk ke di rektory folder projek nya
+2.ketik git status
+3. git add . (untuk menambahkan semua file)
+4.git commit -m "isi komentar perubahan"
+5.git push -u
+6. lihat perubahan di akun github kalian masing masing 
+Smk-Nu01-Kelompok3-streamingFilm

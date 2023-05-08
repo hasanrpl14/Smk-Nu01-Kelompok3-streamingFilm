@@ -8,7 +8,7 @@ import capImage from "../assets/superhero/captain.webp"
 import guarImage from "../assets/superhero/guardians.webp"
 import ironImage from "../assets/superhero/ironman.webp"
 import thImage from "../assets/superhero/the dark.webp"
-import womanImage from "../assets/superhero/woman.webp"
+
 
 
 const Anime = () => {

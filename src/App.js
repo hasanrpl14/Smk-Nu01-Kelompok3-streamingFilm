@@ -5,6 +5,7 @@ import Trending from'./components/Trending';
 import Superhero from'./components/Superhero';
 import Anime from'./components/Anime';
 import Foter from'./components/Foter';
+import Form from'./components/Form';
 // import Login from'./components/Login';
 
 import "./style/landingpage.css";
@@ -31,6 +32,9 @@ function App() {
       </div>
       <div className="foter">
         <Foter/>
+      </div>
+      <div className="form">
+        <Form/>
       </div>
    </div>
   );
