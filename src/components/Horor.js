@@ -5,12 +5,12 @@ import thelastImage from "../assets/trending/thelast.jpg"
 import naruVideo from "../assets/video/naruto.mp4"
 
 
-const Trending = () => {
+const Horor = () => {
     return (
         <div>
             <Container>
                 <br />
-                <h1 className="text-white" id="trending">Trending Movies</h1>
+                <h1 className="text-white" id="horor">Horor</h1>
                 <Row className="g-0">
                     <Col  className="movieWrapper">
                         <Card className="movieImage">
@@ -95,4 +95,4 @@ const Trending = () => {
 }
 
 
-export default Trending
+export default Horor

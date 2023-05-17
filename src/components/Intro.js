@@ -11,7 +11,7 @@ export default function App() {
   return (
     <MDBCarousel showIndicators showControls fade>
       <MDBCarouselItem
-        className='w-100 d-block ' height={525}
+        className='w-100 d-block ' height={600}
         itemId={1}
         src={transformersImage}
         alt='...'
@@ -21,7 +21,7 @@ export default function App() {
       </MDBCarouselItem>
 
       <MDBCarouselItem
-        className='w-100 d-block' height={525}
+        className='w-100 d-block' height={600}
         itemId={2}
         src={guardianImage}
         alt='...'
@@ -31,7 +31,7 @@ export default function App() {
       </MDBCarouselItem>
 
       <MDBCarouselItem
-        className='w-100 d-block' height={525}
+        className='w-100 d-block' height={600}
         itemId={3}
         src={wakandaImage}
         alt='...'

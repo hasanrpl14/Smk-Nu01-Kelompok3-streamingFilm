@@ -1,14 +1,14 @@
 import './App.css';
 import Navigationbar from './components/Navigationbar';
 import Intro from './components/Intro';
-import Trending from'./components/Trending';
+import Horor from './components/Horor';
 import Superhero from'./components/Superhero';
 import Anime from'./components/Anime';
 import Foter from'./components/Foter';
 import Form from'./components/Form';
-// import Login from'./components/Login';
 
 import "./style/landingpage.css";
+
 
 function App() {
   return (
@@ -20,8 +20,8 @@ function App() {
         <Intro/>
       </div>
       {/* akhir intro */}
-      <div className="trending">
-        <Trending/>
+      <div className="horor">
+        <Horor/>
       </div>
       <div className="superhero">
         <Superhero/>

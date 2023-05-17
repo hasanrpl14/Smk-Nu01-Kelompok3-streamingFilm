@@ -1,8 +1,8 @@
 .myBG {
-    height: 100vh;
+    /* height: 100vh;
     background: url('../assets/bg/bioskop.webp');
     /* area background: ; */
-    background-size: cover
+    background-size: cover */
 }
 .intro {
     height: 300px;
@@ -17,7 +17,7 @@
     text-shadow: 2px 2px rgb(109, 108, 108);
     letter-spacing: 4px;
 }
-.trending {
+.horor {
     height: auto;
     background: url('../assets/bg/abstrak.jpg');
     /* area background: ; */
