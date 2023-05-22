@@ -33,9 +33,6 @@ function App() {
       <div className="foter">
         <Foter/>
       </div>
-      <div className="form">
-        <Form/>
-      </div>
    </div>
   );
 }
