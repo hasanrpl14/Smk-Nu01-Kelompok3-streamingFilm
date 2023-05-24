@@ -1,8 +1,17 @@
-import React from 'react'
-import Form from '../components/Form'
+// import Register from "./Component/Register"
+// const Daftar = () => {
+//   return (
+//    <Register />
+//   )
+// }
 
+// export default Daftar
+
+import Register from "../Component/Register"
 const Daftar = () => {
-  return <Form />
+  return (
+    <Register />
+  )
 }
 
 export default Daftar

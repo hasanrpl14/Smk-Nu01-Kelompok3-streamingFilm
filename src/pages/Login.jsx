@@ -1,8 +1,8 @@
-import React from 'react'
-import Loginn from '../components/Loginn'
-
+import Lo from "../Component/Lo"
 const Login = () => {
-  return <Loginn />
+  return (
+    <Lo />
+  )
 }
 
 export default Login
