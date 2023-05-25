@@ -1,3 +1,8 @@
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import movieImage from "../assets/logo/MovieImg.jpg";
+
 
 const Utama = () => {
   return (
@@ -33,7 +38,7 @@ const Utama = () => {
 
   <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbarakata.id%2Ftiket-avengers-endgame-mulai-dijual-16-april%2F&psig=AOvVaw1gByMTg80FY2zR-kmDtinq&ust=1685026979052000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJiU9uWcjv8CFQAAAAAdAAAAABAE" className="w-full" />
+    <img src="{movieImage}" className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle">❮</a> 
       <a href="#slide2" className="btn btn-circle">❯</a>
@@ -63,6 +68,34 @@ const Utama = () => {
 </div>
 
 
+{/* kartu */}
+    <div className="absolute top-1/2 left-1/2 transform scale-100 w-56 h-60 bg-center bg-cover rounded"
+    style={{ backgroundImage: `url(${movieImage})` }}>
+      <div className="absolute top-0 w-full h-full bg-gradient-to-t from-black/90 duration-700 opacity-0 hover:opacity-100">
+        <div className="absolute bottom-0 w-full h-56	text-white flex flex-col content-evenly pt-12 px-6">
+          <p className="text-2xl font-semibold ">Black Adams</p>
+          <p className="text-sm text-yellow-500">2022,Anthony Russo</p>
+          <p className="text-sm text-yellow-500">Action,Sci-fi
+          <span className="pt-0 px-1.5 ml-1.5 border-2 rounded text-xs">170min</span></p>
+          <div>
+          <FontAwesomeIcon icon={faStar} style={{color: "#fff700",}} />
+          <FontAwesomeIcon icon={faStar} style={{color: "#fff700",}} />
+          <FontAwesomeIcon icon={faStar} style={{color: "#fff700",}} />
+          {/* <FontAwesomeIcon icon={farStar} style={{color: "#fff700",}}/> */}
+          <span >8.5</span>
+          <div>
+            <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+          </div>
+          <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
+            <a href="video">Watch Now</a>
+          <FontAwesomeIcon icon={faPlay} className="ml-1" style={{color: "#fff",}} />
+          </button>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+
 
 {/* 
   footer */}
@@ -90,7 +123,6 @@ const Utama = () => {
 </footer>
     </>
    
-
   
   )
 }

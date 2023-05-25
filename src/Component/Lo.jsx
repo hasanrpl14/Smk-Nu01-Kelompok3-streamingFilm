@@ -22,6 +22,7 @@ export default function Login() {
                 </div>
                 <button className='w-full my-5 py-2 bg-red-600 shadow-lg shadow-red-400/50 hover:shadow-red-500/40 text-white font-semibold rounded-lg'>
                 <a href="home">SIGIN</a>
+                {/* <link to="home">SIGIN</link> */}
                 </button>
                 <div className="text-white">
                 <span>Dont have an account yes?</span><a href="daftar">Sign up</a>
