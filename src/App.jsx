@@ -4,7 +4,7 @@ import Login from "./Pages/Login";
 import Daftar from "./Pages/Daftar";
 import Home from "./Pages/Home";
 import Vide from "./Pages/Vide"
-// importdeVid from "./Pages/Vid";
+import Rincian from "./pages/Rincian";
 
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/video" element={<Vide />} />
+        <Route path="/rincian" element={<Rincian />} />
       </Routes>
     </Router>
     </>
