@@ -9,7 +9,10 @@ export default {
       width: {
         "430": "27rem",
         "800": "50rem",
-      }
+      },
+      colors: {
+        "red-logo": "#50913"
+      },
     },
   },
   plugins: [require("daisyui")],

@@ -1,12 +1,13 @@
-
+import logoImage from "../assets/logo/k3.png";
 
 const Hero = () => {
   return (
     <div className="min-h-screen flex bg-cover bg-center" style={{ backgroundImage: `url("https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")` }}>
 
-      <div className="ml-11 mt-6 text-3xl flex">
-      <h1 className=" text-red-600 font-bold font-size underline">K3</h1>
-    <span className="text-white">FILMS</span>
+      <div className="ml-11 mt-6 flex">
+      {/* <h1 className=" text-red-600 font-bold font-size underline">K3</h1>
+    <span className="text-white">FILMS</span> */}
+    <img src={logoImage} alt="logo" className="h-10"/>
       </div>
 
       {/* <div className="text-center flex items-center justify-center ml-96 mb-52">
@@ -17,7 +18,7 @@ const Hero = () => {
       </div> */}
    <div className="hero-content text-center ml-72">
     <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Welcome K3FILMS</h1>
+      <h1 className="text-5xl font-bold text-red-600">WELCOME K3FILMS</h1>
       <p className="py-6  text-white">K3FILMS Adalah Sebuah Project Mini Web Streaming Film Dari Kelompok 3 Dari Smk Nu 01 Kendal</p>
       <button className="btn  bg-red-600">
         <a href="login">Get Started</a>

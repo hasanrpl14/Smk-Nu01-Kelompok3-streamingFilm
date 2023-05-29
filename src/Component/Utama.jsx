@@ -12,19 +12,19 @@ const Utama = () => {
     
   <div className="bg-black">
     
-  <div className="navbar bg-dark text-white h-20">
+  <div className="navbar bg-dark text-white h-[5rem]">
   <div className="flex-1">
-    <img src={logoImage} alt="Logo k3" className="w-[7rem] ml-8"/>
+    <img src={logoImage} alt="Logo k3" className="w-[7rem] ml-9"/>
     {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
-    <ul>
-      <li><a href="">Home</a></li>
+    <ul className="flex ml-8">
+      <li><a href="#" className=" font-semibold text-lg">Home</a></li>
+      <li><a href="#populer" className="ml-3 font-semibold text-lg">Populer</a></li>
+      <li><a href="#" className="ml-3 font-semibold text-lg">Movies</a></li>
     </ul>
+    <input className="ml-auto mr-20 p-1 rounded-2xl text-black px-2"
+      type="search" placeholder="  cari...."/>
   </div>
-  
-
 </div>
-  
-
 
 {/* menu carousel */}
   <div className="carousel w-full">
@@ -33,7 +33,7 @@ const Utama = () => {
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" className="btn btn-circle">❮</a> 
       <div className="flex flex-col  justify-start mr-auto ml-10">
-      <h1 className="text-5xl font-bold text-red-500 uppercase">Gundala</h1> 
+      <h1 className="text-5xl font-bold text-red-600 uppercase">Gundala</h1> 
       <p className="text-white">Berkisah tentang sosok antihero yang mendapatkan kekuatan dari dewa.</p>
       <p className="text-white">mesir bernama Adam. Ia datang untuk menciptakan keadilan di dunia saat ini.</p>
 
@@ -84,7 +84,7 @@ const Utama = () => {
 
 <br /><br />
 {/* kartu */}
-<h1 className="text-2xl text-white font-semibold text-center underline underline-offset-8">Populer</h1>
+<h1 className="text-2xl text-white font-semibold text-center underline underline-offset-8" id="populer">Populer</h1>
 <br />
 <div className="flex justify-center">
 <div className="flex">
