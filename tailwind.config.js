@@ -8,7 +8,7 @@ export default {
     extend: {
       width: {
         "430": "27rem",
-        "800": "50rem",
+        "200": "12,5rem",
       },
       colors: {
         "red-logo": "#50913"
