@@ -17,7 +17,7 @@ const Utama = () => {
     <img src={logoImage} alt="Logo k3" className="w-[7rem] ml-9"/>
     {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
     <ul className="flex ml-8">
-      <li><a href="#" className=" font-semibold text-lg">Home</a></li>
+      <li><a href="home" className=" font-semibold text-lg">Home</a></li>
       <li><a href="#populer" className="ml-3 font-semibold text-lg">Populer</a></li>
       <li><a href="#" className="ml-3 font-semibold text-lg">Movies</a></li>
     </ul>
@@ -88,7 +88,7 @@ const Utama = () => {
 <br />
 <div className="flex justify-center">
 <div className="flex">
-<div className="transform scale-100 w-56 h-60 bg-center bg-cover rounded mx-4"
+<div className="transform scale-100 w-56 h-60 bg-center bg-cover rounded mx-4 hover:w-60 hover:h-72"
     style={{ backgroundImage: `url(${movieImage})` }}>
       <div className="top-0 w-full h-full bg-gradient-to-t from-black/90 duration-700 opacity-0 hover:opacity-100">
         <div className="absolute bottom-0 w-full h-56	text-white flex flex-col content-evenly pt-12 px-6">
