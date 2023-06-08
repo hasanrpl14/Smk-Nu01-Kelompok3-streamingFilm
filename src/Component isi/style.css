@@ -1,0 +1,26 @@
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+img {
+    height: 250px;
+    width: 400px;
+    border: 2px solid blanchedalmond;
+    display: block;
+    margin: auto;
+}
+
+.slickk-arrow {
+    color: aqua;
+}
+
+.slickk-prev {
+    z-index: 100;
+    left: 20px !important;
+}
+.slickk-next {
+    z-index: 100;
+    right: 20px !important;
+}
