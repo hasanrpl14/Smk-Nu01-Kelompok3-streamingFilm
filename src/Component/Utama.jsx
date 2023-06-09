@@ -2,7 +2,7 @@ import Navbar from "../Component isi/Navbar";
 import Carousel from "../Component isi/Carousel";
 import List from "../Component isi/List film";
 import Footer from "../Component isi/Footer";
-import Card from "../Component isi/Card";
+// import Card from "../Component isi/Card";
 
 const Utama = () => {
   return (
