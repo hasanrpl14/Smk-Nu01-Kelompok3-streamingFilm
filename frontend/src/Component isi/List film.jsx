@@ -1,13 +1,28 @@
+// import { useEffect, useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faStar } from "@fortawesome/free-solid-svg-icons";
-import movieImage from "../assets/logo/MovieImg.jpg";
+import movieImage from "../assets/bg/avecover.png";
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './style.css';
+// import axios from "axios"
+
 
 const List = () => {
+  // const [movies, setMovies] = useState([])
+  // useEffect(() => {
+  //   axios.get(`${process.env.REACT_APP_BASE_URL}/discover/movie`, {
+  //     params: {
+  //       api_key: process.env.REACT_APP_TMDB_KEY
+  //     }
+  //   }).then((response) => {
+  //     setMovies(response.data.results)
+  //   })
+  // }, [])
+
+
   const settings = {
     dots: true,
     infinite: true,
@@ -45,7 +60,7 @@ const List = () => {
                   <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
                 </div>
                 <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
-                  <a href="video">Watch Now</a>
+                  <a href="rincian">Watch Now</a>
                   <FontAwesomeIcon icon={faPlay} className="ml-1" style={{ color: "#fff" }} />
                 </button>
               </div>
@@ -71,7 +86,7 @@ const List = () => {
                   <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
                 </div>
                 <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
-                  <a href="video">Watch Now</a>
+                  <a href="rincian">Watch Now</a>
                   <FontAwesomeIcon icon={faPlay} className="ml-1" style={{ color: "#fff" }} />
                 </button>
               </div>
@@ -97,7 +112,7 @@ const List = () => {
                   <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
                 </div>
                 <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
-                  <a href="video">Watch Now</a>
+                  <a href="rincian">Watch Now</a>
                   <FontAwesomeIcon icon={faPlay} className="ml-1" style={{ color: "#fff" }} />
                 </button>
               </div>
@@ -123,7 +138,7 @@ const List = () => {
                   <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
                 </div>
                 <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
-                  <a href="video">Watch Now</a>
+                  <a href="rincian">Watch Now</a>
                   <FontAwesomeIcon icon={faPlay} className="ml-1" style={{ color: "#fff" }} />
                 </button>
               </div>
@@ -149,7 +164,7 @@ const List = () => {
                   <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
                 </div>
                 <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
-                  <a href="video">Watch Now</a>
+                  <a href="rincian">Watch Now</a>
                   <FontAwesomeIcon icon={faPlay} className="ml-1" style={{ color: "#fff" }} />
                 </button>
               </div>
@@ -175,7 +190,7 @@ const List = () => {
                   <p>ikiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</p>
                 </div>
                 <button className="h-auto w-36 border-none rounded-xl bg-yellow-500 text-base font-semibold cursor-pointer mt-3">
-                  <a href="video">Watch Now</a>
+                  <a href="rincian">Watch Now</a>
                   <FontAwesomeIcon icon={faPlay} className="ml-1" style={{ color: "#fff" }} />
                 </button>
               </div>
@@ -190,8 +205,66 @@ const List = () => {
 
       
       <br /><br />
+
+      
     </>
   );
 }
 
 export default List;
+
+
+
+
+// import { useEffect, useState } from "react";
+// import axios from "axios";
+
+// const List = () => {
+//   const [movies, setMovies] = useState([]);
+
+//   useEffect(() => {
+//     axios
+//       .get(`${process.env.REACT_APP_BASE_URL}/discover/movie`, {
+//         params: {
+//           api_key: process.env.REACT_APP_TMDB_KEY,
+//         },
+//       })
+//       .then((response) => {
+//         setMovies(response.data.results);
+//       });
+//   }, []);
+
+//   return (
+//     <div className="bg-gray-900">
+//       <div className="container mx-auto py-8">
+//         <h1 className="text-white text-3xl font-bold mb-4">TRENDING MOVIES</h1>
+//         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+//           {movies.map((result, index) => {
+//             return (
+//               <div className="movieWrapper" id="trending" key={index}>
+//                 <div className="bg-white rounded-lg shadow-md">
+//                   <img
+//                     src={`${process.env.REACT_APP_IMG_URL}/${result.poster_path}`}
+//                     alt="test"
+//                     className="w-full h-auto"
+//                   />
+//                   <div className="bg-gray-900">
+//                     <div className="p-2 m-1 text-white">
+//                       <h2 className="text-center text-lg font-semibold">
+//                         {result.title}
+//                       </h2>
+//                       <p className="text-left">{result.overview}</p>
+//                       <p className="text-left">{result.release_date}</p>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             );
+//           })}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default List;

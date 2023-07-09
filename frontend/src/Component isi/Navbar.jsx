@@ -6,21 +6,26 @@ import './style.css';
 const Navbar = () => {
   return ( 
     <>
-      <div className="navbar bg-dark text-white h-[75px]">
+      <div className="navbar bg-black text-white h-[75px]">
   <div className="flex-1">
+    <a href="home">
     <img src={logoImage} alt="Logo k3" className="w-[108px] ml-9"/>
+    </a>
     {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
     <ul className="flex ml-8">
-      <li><a href="#" className="font-semibold text-lg decoration-red-600 decoration-4 hover:underline hover:underline-red-600
-       hover:duration-300 underline-offset-4 cursor-pointer ">Home</a></li>
-      <li><a href="#populer" className="ml-3 font-semibold text-lg decoration-red-600 decoration-4 hover:underline hover:underline-red-600
-       hover:duration-300 underline-offset-4 cursor-pointer">Populer</a></li>
-      <li><a href="#movie" className="ml-3 font-semibold text-lg decoration-red-600 decoration-4 hover:underline hover:underline-red-600
+      <li><a href="home" className="font-semibold text-lg  hover:text-red-600 
+       hover:duration-300 cursor-pointer ">Home</a></li>
+      <li><a href="movie" className="ml-3 font-semibold text-lg decoration-red-600 decoration-4 hover:underline hover:underline-red-600
        hover:duration-300 underline-offset-4 cursor-pointer">Movies</a></li>
+      <li><a href="tvshow" className="ml-3 font-semibold text-lg decoration-red-600 decoration-4 hover:underline hover:underline-red-600
+       hover:duration-300 underline-offset-4 cursor-pointer">Tv Show</a></li>
     </ul>
-   
-    <input className="ml-auto mr-32 p-1 rounded-xl text-black px-2 focus:outline-none hover:w-96 hover:duration-500 cursor-pointer"
+
+    <a href="search" className="ml-auto mr-32">
+      <input className="p-1 rounded-xl text-black px-2 focus:outline-none cursor-pointer"
       type="search" placeholder="  cari...."/>
+    </a>
+    
 
       
 

@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
-// import { useEffect, useState} from "react";
 import Intro from "./Pages/Intro";
 import Login from "./Pages/Login";
 import Daftar from "./Pages/Daftar";
@@ -8,35 +7,14 @@ import Vide from "./Pages/Vide"
 import Rincian from "./pages/Rincian";
 import Admin from "./pages/Admin";
 import DaftarFilm from "./Component/Admin/DaftarFilm";
-
+import Tv from "./pages/Tv";
+import Movies from "./pages/Movies";
+import Search from "./pages/Search";
 
 const App = () => {
-    // const [backendData, setBackendData] = useState([{}])
-
-    // useEffect(() => {
-    //   fetch("/api").then(
-    //     response => response.json()
-    //   ).then(
-    //     data => {
-    //       setBackendData(data)
-    //     }
-    //   )
-    // }, [])
-
 
   return (
     <>
-
-    {/* <div>
-      {(typeof backendData.users === 'undefined') ? (
-        <p>Loading...</p>
-      ) : ( 
-        backendData.users.map((user, i) => (
-          <p key={i}>{user}</p>
-        ))
-      )}
-    </div> */}
-
     <Router>
       <Routes>
         <Route path="/" element={<Intro />} />
@@ -45,6 +23,9 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/video" element={<Vide />} />
         <Route path="/rincian" element={<Rincian />} />
+        <Route path="/tvshow" element={<Tv />} />
+        <Route path="/movie" element={<Movies />} />
+        <Route path="/search" element={<Search />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/admindatafilm" element={<DaftarFilm />} />
       </Routes>
