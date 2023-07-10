@@ -1,4 +1,3 @@
-import Navbar from "../Component isi/Navbar";
 import Carousell from "../Component isi/Carousell";
 import List from "../Component isi/List film";
 import Footer from "../Component isi/Footer";
@@ -7,7 +6,7 @@ const Utama = () => {
   return (
     <>
   <div className="bg-black">
-    <Navbar />
+    {/* <Navbar /> */}
     <Carousell />
     <br /><br />
     <List />
